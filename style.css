@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+.maindiv {
+    /* height: 100vh; */
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+  
+}
+ul > li {
+
+    flex-grow: 4;
+    align-content: space-between;
+    font-size: 20px;
+}
+
+button {
+
+    background: linear-gradient( 45deg, yellow,green);
+    color: blanchedalmond;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.content-container{
+
+  
+   height: 100vh;
+
+}
+
+.left-content{
+    margin-left: 76px;
+    margin-top: 40px;
+}
+
+
+a > li:hover{
+background-color: rgb(70, 209, 214);
+    color: white;
+    
+    border-style: outset;
+}
+
+
+
+section{
+
+    height: 100vh;
+}
+
+a {
+    text-transform: uppercase;
+    
+
+    
+}
